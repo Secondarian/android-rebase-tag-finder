@@ -1,7 +1,7 @@
 # Android Rebase Tag Finder
 ## Description
-This shell script gives you the tag of the common kernel which is the least different from your OEM kernel which would also constitute the ideal tag to rebase on when upstreaming for example.
+This shell script finds the least different tag in the common kernel, compared to your vendor kernel. This constitutes the ideal tag to rebase on which is useful for upstreaming, for example.
 ## Usage
 ```
-./tagfinder.sh [OEM kernel directory]
+./tagfinder.sh [common kernel dir] [vendor kernel dir]
 ```
